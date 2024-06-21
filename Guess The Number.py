@@ -4,6 +4,7 @@ from random import choice
 
 
 def main():
+    print("Welcome! Please enter the range of values") 
     a, b = span()
     tries = round(math.log((int(b) - int(a)), 2))
     correct = choice(range(int(a), int(b)))
